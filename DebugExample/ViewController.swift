@@ -25,12 +25,6 @@ class ViewController: UIViewController {
     }
 }
 
-// MARK: - UITableViewDataSource
-
-extension ViewController: UITableViewDelegate {
-    
-}
-
 extension ViewController: UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return nameArray.count
